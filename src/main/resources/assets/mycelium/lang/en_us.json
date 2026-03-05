@@ -1,0 +1,13 @@
+{
+  "itemGroup.mycelium": "Example Mod Tab",
+  "block.mycelium.example_block": "Example Block",
+  "item.mycelium.example_item": "Example Item",
+
+  "mycelium.configuration.title": "Mycelium Configs",
+  "mycelium.configuration.section.mycelium.common.toml": "Mycelium Configs",
+  "mycelium.configuration.section.mycelium.common.toml.title": "Mycelium Configs",
+  "mycelium.configuration.items": "Item List",
+  "mycelium.configuration.logDirtBlock": "Log Dirt Block",
+  "mycelium.configuration.magicNumberIntroduction": "Magic Number Text",
+  "mycelium.configuration.magicNumber": "Magic Number"
+}
