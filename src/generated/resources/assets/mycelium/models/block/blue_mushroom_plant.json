@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "mycelium:block/blue_mushroom_plant"
+  }
+}

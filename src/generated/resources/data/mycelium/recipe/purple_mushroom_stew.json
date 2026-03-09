@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "mycelium:purple_mushroom_plant",
+      "minecraft:bowl"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "mycelium:purple_mushroom_stew"
+  }
+}

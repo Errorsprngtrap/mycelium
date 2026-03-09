@@ -1,0 +1,11 @@
+// 1.21.10	2026-03-09T19:42:36.8658835	Mycelium Recipes
+d7ecf39de1659c1304321a2b1aab1f0fc491a2bf data/mycelium/advancement/recipes/misc/blue_mushroom_stew.json
+856e8476229a8b0467f661780fc1430c192266d4 data/mycelium/advancement/recipes/misc/mycelium_brick_block.json
+e2fe4492af0e4912bf647211945ef2859f5cf263 data/mycelium/advancement/recipes/misc/purple_mushroom_stew.json
+2d4dc2ff39dd0423ca3802479edba2cbf5d3a06c data/mycelium/advancement/recipes/misc/spore.json
+d765b967a7e0eaa63912472e5ef738aae1c254cd data/mycelium/advancement/recipes/misc/super_mushroom_stew.json
+660e245519ff7275e061fa9f7b24aa60cbc02333 data/mycelium/recipe/blue_mushroom_stew.json
+4f18d6dbd479a9dcb493e3ef864c5b9ad474b183 data/mycelium/recipe/mycelium_brick_block.json
+5d5db8c980434577dc40ad07c6dc362587b198da data/mycelium/recipe/purple_mushroom_stew.json
+93fdecebbaa9ce26155f828d034b92f26bfc925c data/mycelium/recipe/spore.json
+38a879e33acd2840d9126855e33044018afc41f8 data/mycelium/recipe/super_mushroom_stew.json

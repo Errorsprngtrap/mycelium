@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mycelium:block/mycelium_brick_block"
+    }
+  }
+}
