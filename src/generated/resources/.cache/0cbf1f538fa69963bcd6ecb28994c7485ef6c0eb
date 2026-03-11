@@ -1,4 +1,6 @@
-// 1.21.10	2026-03-09T19:42:36.8658835	Mycelium Recipes
+// 1.21.10	2026-03-11T09:33:37.2190624	Mycelium Recipes
+0b01f040fd41b9b6bb6a15f8e10748ea8f1a7081 data/minecraft/advancement/recipes/misc/mycelium_cooked_mycelium_for_brick.json
+1c9528b6464e9576dea5013742a03ec7b1af068f data/minecraft/recipe/mycelium_cooked_mycelium_for_brick.json
 d7ecf39de1659c1304321a2b1aab1f0fc491a2bf data/mycelium/advancement/recipes/misc/blue_mushroom_stew.json
 856e8476229a8b0467f661780fc1430c192266d4 data/mycelium/advancement/recipes/misc/mycelium_brick_block.json
 e2fe4492af0e4912bf647211945ef2859f5cf263 data/mycelium/advancement/recipes/misc/purple_mushroom_stew.json

@@ -5,15 +5,13 @@ import com.spring.mycelium.ModItems.ModItems;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeOutput;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapelessRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
+import java.awt.*;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends RecipeProvider {
@@ -58,6 +56,11 @@ public class ModRecipeProvider extends RecipeProvider {
                 ))
                 .unlockedBy("has_mushroom", has(Items.AIR))
                 .save(output);
+
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Items.MYCELIUM),RecipeCategory.MISC,
+                ModBlocks.MYCELIUM_BRICK_BLOCK,.10F,100)
+                .unlockedBy("has_mycelium", has(Items.MYCELIUM))
+                .save(output,"mycelium_cooked_mycelium_for_brick");
 
     }
 
