@@ -22,17 +22,20 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> MYCELIUM_BRICK_BLOCK = registerBlock(
             "mycelium_brick_block",
-            properties -> new Block(properties.strength(10,10))
+            properties -> new Block(properties
+                    .strength(2,2)
+                    .requiresCorrectToolForDrops()
+            )
     );
 
     public static final DeferredBlock<HugeMushroomBlock> BLUE_MUSHROOM_BLOCK = registerBlock(
             "blue_mushroom_block",
-            properties -> new HugeMushroomBlock(properties.strength(10,10))
+            properties -> new HugeMushroomBlock(properties.strength(0.25f,0.5f))
     );
 
     public static final DeferredBlock<HugeMushroomBlock> PURPLE_MUSHROOM_BLOCK = registerBlock(
             "purple_mushroom_block",
-            properties -> new HugeMushroomBlock(properties.strength(10,10))
+            properties -> new HugeMushroomBlock(properties.strength(0.25f,0.5f))
     );
 
     public static final DeferredBlock<MushroomBlock> BLUE_MUSHROOM_PLANT = registerBlock(

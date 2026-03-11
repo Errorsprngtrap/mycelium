@@ -80,9 +80,4 @@ public class ModRecipeProvider extends RecipeProvider {
             return "Mycelium Recipes";
         }
     }
-
-
-
-
-
 }
